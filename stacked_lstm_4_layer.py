@@ -181,7 +181,7 @@ def My_Prediction_Method(ID, df , df3, grouped_df):
     # extracting last readings equivalent to window size
     length = len(df)
 
-        ##SPEED##
+    
     df_si = preparing_data(ID, df3, grouped_df)
     df3_si = df_si[length - TrainingWindow:length]
     #print('df3_si',df3_si)
